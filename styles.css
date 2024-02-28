@@ -3,16 +3,54 @@
 }
 body {
     text-align: center;
-
+}
+.envio {
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
 }
 .caja1 {
-
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    margin-top: 0;
 }
-
 .caja2 {
-
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    margin-top: 0;
+    background-color: yellow;
 }
-
 .caja3 {
-    
+    position: absolute;
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.caja4 {
+    position: absolute;
+    background-color: blue;
+    bottom: 0;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 0;
+}
+.caja5 {
+    position: absolute;
+    background-color: #380B61;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 150px;
+    height: 150px;
 }
